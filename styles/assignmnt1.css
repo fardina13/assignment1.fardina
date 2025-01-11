@@ -29,6 +29,7 @@ nav li{
     padding: 15px 30px;
     border-radius: 8px;
 
+
 }
 .banner{
     display: flex;
@@ -58,6 +59,7 @@ nav li{
     border: solid;
     background-color: rgba(0, 106, 80, 1);
     border-radius: 8px;
+    border-style: none;
     padding-left: 34px;
     padding-right: 34px;
     padding-top: 18px;
@@ -66,4 +68,25 @@ nav li{
 }
 .banner-picture{
     width: 480px;
+}
+main{
+    max-width: 1280px;
+    margin: 20px 40px 0 40px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 24px;
 }
