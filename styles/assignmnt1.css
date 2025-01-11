@@ -28,8 +28,6 @@ nav li{
     color: rgba(0, 106, 80, 1);
     padding: 15px 30px;
     border-radius: 8px;
-
-
 }
 .banner{
     display: flex;
@@ -78,7 +76,7 @@ main{
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
 }
-.section-description{
+.section-description1{
     font-size: 16px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.7);
@@ -86,7 +84,7 @@ main{
 }
 .skills-container{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     gap: 24px;
 }
 .skill{
@@ -142,4 +140,31 @@ main{
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
     background-color: rgba(247, 235, 207, 1);
+}
+.section{
+    width: 1280px;
+    height: 256px;
+    margin: 24px 48px 48px 24px;
+}
+.quote-mark{
+    background-image: url('../assets/quote-bg.png');
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+}
+.section-description2{
+    width: 1232px;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+}
+.section1-speaker-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.section-speaker-position{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
 }
