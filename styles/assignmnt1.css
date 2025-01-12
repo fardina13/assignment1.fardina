@@ -1,7 +1,7 @@
 
 
 .open-sans-normal {
-  font-family: "Open Sans", serif;
+  font-family: "fira Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -28,6 +28,10 @@ nav li{
     color: rgba(0, 106, 80, 1);
     padding: 15px 30px;
     border-radius: 8px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color:rgb(9, 61, 48) ;
 }
 .banner{
     display: flex;
@@ -63,6 +67,10 @@ nav li{
     padding-top: 18px;
     padding-bottom: 18px;
 
+}
+.btn-secondary:hover{
+    color: white;
+    background-color:rgb(9, 61, 48) ;
 }
 .banner-picture{
     width: 480px;
@@ -107,6 +115,9 @@ main{
     border-style: none;
     background-color: rgba(84, 144, 245, 1);
 }
+.btn-tertiary1:hover{
+    background-color:rgb(36, 98, 206) ;
+}
 .btn-tertiary2{
     font-size: 16px;
     font-weight: 600;
@@ -119,6 +130,9 @@ main{
     border-style: none;
     background-color: rgba(9, 161, 92, 1);
 }
+.btn-tertiary2:hover{
+    background-color:rgb(7, 119, 69) ;
+}
 .btn-tertiary3{
     font-size: 16px;
     font-weight: 600;
@@ -130,6 +144,9 @@ main{
     border-radius: 8px;
     border-style: none;
     background-color: rgba(255, 194, 57, 1);
+}
+.btn-tertiary3:hover{
+    background-color:rgb(214, 157, 24) ;
 }
 .skill2{
     border-radius: 16px;
@@ -149,7 +166,7 @@ main{
 .quote-mark{
     background-image: url('../assets/quote-bg.png');
     background-size: 64px 64px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 .section-description2{
     width: 1232px;
@@ -167,4 +184,125 @@ main{
     font-size: 16px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.7);
+}
+.section-description3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description4{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    width: 1280px;
+    height: 402px;
+    padding: 48px 48px 20px 48px;
+}
+.rounded-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.content{
+    width: 744px;
+    height: 290px;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+}
+.article{
+    font-size: 16px;
+    margin: 0 0 32px 0;
+}
+.button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgba(9, 161, 92, 1);
+}
+.button:hover{
+    background-color: rgb(3, 65, 37) ;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    width: 1280px;
+    height: 402px;
+    padding: 48px 48px 0 48px;
+    margin-bottom: 0;
+}
+.rounded-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.content{
+    width: 744px;
+    height: 290px;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+}
+.article{
+    font-size: 16px;
+    margin: 0 0 32px 0;
+}
+.button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgba(9, 161, 92, 1);
+}
+.button:hover{
+    background-color: rgb(3, 65, 37) ;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 80px;
+}
+.content2{
+    width: 1280px;
+    height: 48px;
+}
+.heading2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.article2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
