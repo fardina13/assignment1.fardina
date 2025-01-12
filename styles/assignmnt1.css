@@ -436,3 +436,6 @@ input[name=email]{
     border-style: none;
     background-color: rgba(9, 161, 92, 1);
 }
+.subscribe:hover{
+    background-color: rgb(7, 122, 71);
+}
